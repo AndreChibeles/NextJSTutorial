@@ -20,7 +20,7 @@ FROM base AS dev
 
 EXPOSE 3000
 
-CMD ["pnpm", "dev"]
+CMD ["npm", "run", "dev"]
 
 # Stage 3: Builder
 FROM base AS builder
